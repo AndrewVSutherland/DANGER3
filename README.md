@@ -7,7 +7,10 @@ More precisely, this means that if one applies the doubling law for Montgomery c
 
 This is a minor refinement of the definition used in Pomerance's [paper](https://math.dartmouth.edu/~carlp/PDF/paper62.pdf).  One can adapt Pomerance's result to show that Pomerance triples exist for all primes $p>3$.
 
-The triple $(10^{18}+3,650095865875375253,446015633473605308)$ is a Pomerance triple.<br>
+Examples of some larger Pomerance triples include
+- $(10^{15}+37,501253912199979,227109452032906)$
+- $(10^{18}+3,650095865875375253,446015633473605308)$
+  
 Can you find one for $p=10^{19}+51$?
 
 This repository contains the following resources:
