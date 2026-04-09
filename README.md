@@ -9,6 +9,8 @@ This is a minor refinement of the definition used in Pomerance's [paper](https:/
 
 Examples of some larger Pomerance triples include
 - $(10^{15}+37,501253912199979,227109452032906)$
+- $(10^{16}+61,,7091819576975137,7486903304256253)$
+- $(10^{17}+3,38900982538808192,78529976024049678)$
 - $(10^{18}+3,650095865875375253,446015633473605308)$
   
 Can you find one for $p=10^{19}+51$?
