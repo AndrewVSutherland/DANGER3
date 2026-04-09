@@ -7,11 +7,12 @@ More precisely, this means that if one applies the doubling law for Montgomery c
 
 This is a minor refinement of the definition used in Pomerance's [paper](https://math.dartmouth.edu/~carlp/PDF/paper62.pdf).  One can adapt Pomerance's result to show that Pomerance triples exist for all primes $p>3$.
 
-The triple $(10^{18}+3,650095865875375253,446015633473605308)$ is a Pomerance triple.  Can you find one for $p=10^{19}+51$?
+The triple $(10^{18}+3,650095865875375253,446015633473605308)$ is a Pomerance triple.<br>
+Can you find one for $p=10^{19}+51$?
 
 This repository contains the following resources:
 
-- vpp.py is a Python program to efficiently verify a candidate Pomerance triple
+- vpp.py is a Python program that efficiently verifies a candidate Pomerance triple.
 - lean_vpp.py is a Python program that generates lean code that verifies a Pomerance triple (which you can run on [Lean 4 web](https://live.lean-lang.org)).
 - pp10.txt contains all Pomerance triples $(p,A,x_0)$ with $p\le 2^{10}$.
 - pp12.txt.gz contains all Pomerance triples $(p,A,x_0)$ with $p\le 2^{12}$.
