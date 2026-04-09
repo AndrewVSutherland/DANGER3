@@ -7,17 +7,6 @@ More precisely, this means that if one applies the doubling law for Montgomery c
 
 This is a minor refinement of the definition used in Pomerance's [paper](https://math.dartmouth.edu/~carlp/PDF/paper62.pdf).  One can adapt Pomerance's result to show that Pomerance triples exist for all primes $p>3$.
 
-Examples of some larger Pomerance triples include
-- $(10^{12}+39,249665736657,326654630116)$
-- $(10^{13}+37,3975240388830,3363870254431)$
-- $(10^{14}+31,29435557274911,60189380554757)$
-- $(10^{15}+37,501253912199979,227109452032906)$
-- $(10^{16}+61,,7091819576975137,7486903304256253)$
-- $(10^{17}+3,38900982538808192,78529976024049678)$
-- $(10^{18}+3,650095865875375253,446015633473605308)$
-  
-Can you find one for $p=10^{19}+51$?
-
 This repository contains the following resources:
 
 - vpp.py is a Python program that efficiently verifies a candidate Pomerance triple.
@@ -34,3 +23,15 @@ Larger data sets are available at the following locations:
 - [pp16.txt.gz](https://math.mit.edu/~drew/pp16.txt.gz): the 598,705,640 Pomerance triples with $p<2^{16}$ (9887MB).
 - [pp28.txt.gz](https://math.mit.edu/~drew/pp28.txt.gz): one Pomerance triple for each of the 14,630,841 primes $3 < p < 2^{28}$ (386MB).
 - [pp30.txt.gz](https://math.mit.edu/~drew/pp30.txt.gz): one Pomerance triple for each of the 54,400,026 primes $3 < p < 2^{30}$ (1512MB).
+
+Examples of some larger Pomerance triples include
+- $(10^{12}+39,249665736657,326654630116)$
+- $(10^{13}+37,3975240388830,3363870254431)$
+- $(10^{14}+31,29435557274911,60189380554757)$
+- $(10^{15}+37,501253912199979,227109452032906)$
+- $(10^{16}+61,,7091819576975137,7486903304256253)$
+- $(10^{17}+3,38900982538808192,78529976024049678)$
+- $(10^{18}+3,650095865875375253,446015633473605308)$
+  
+Can you find one for $p=10^{19}+51$?
+
