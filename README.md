@@ -10,7 +10,7 @@ This is a minor refinement of the definition used in Pomerance's [paper](https:/
 This repository contains the following resources:
 
 - vpp.py is a Python program to efficiently verify a candidate Pomerance triple
-- lean_vpp.py is a Python program that generates lean code to formally certify a given Pomerance triple
+- lean_vpp.py is a Python program that generates lean code that verifies a Pomerance triple (which you can run on [Lean 4 web](https://live.lean-lang.org)).
 - pp10.txt contains all Pomerance triples $(p,A,x_0)$ with $p\le 2^{10}$.
 - pp12.txt.gz contains all Pomerance triples $(p,A,x_0)$ with $p\le 2^{12}$.
 - pp16A.txt.gz contains all distinct prefixes $(p,A)$ Pomerance triples with $p\le 2^{16}$.
