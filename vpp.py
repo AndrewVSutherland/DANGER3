@@ -1,3 +1,14 @@
+"""
+Verify that (p, A, x0) is a Pomerance triple.
+
+Usage:
+    python3 vpp.py p A x0
+
+Outputs True/False
+"""
+
+import sys
+
 def pp_verify(p, A, x0):
     from math import gcd, isqrt
 
@@ -23,3 +34,14 @@ def pp_verify(p, A, x0):
 
     # if p|Z and (Zprev,p)=1 then (p,A,x0) is valid
     return Z % p == 0 and gcd(Zprev, p) == 1 
+
+def main():
+    if len(sys.argv) < 4:
+        print(f"Usage: {sys.argv[0]} p A x0", file=sys.stderr)
+        sys.exit(1)
+
+    p, A, x0 = int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3])
+    print(pp_verify(p,A,x0))
+
+if __name__ == "__main__":
+    main()
