@@ -44,7 +44,7 @@ using a multi-threaded low level C implementation of an $\tilde O(\sqrt{p})$-tim
 
 **Update 2**: In collaboration with GPT 5.4, Vishnu Jejella found the Pomerance triple
 
-- $10^{20}+39, 80635707401894747894, 31614069099331127513$
+- $(10^{20}+39, 80635707401894747894, 31614069099331127513)$
 
 after testing approximately $1.2 \times 10^9$ candidates, which took about 25300s.  Congratulations to GPT and Vishnu!
 
