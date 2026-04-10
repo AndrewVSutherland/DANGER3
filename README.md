@@ -36,15 +36,15 @@ Examples of some larger Pomerance triples include
   
 Can you find one for $p=10^{19}+51$?
 
-**UPDATE 1**: In collaboration with Clause Opus 4.6, [Fabian Ruehle](https://cos.northeastern.edu/people/fabian-ruehle/) found the Pomerance triple:
+**UPDATE 1**: In collaboration with Clause Opus 4.6, [Fabian Ruehle](https://cos.northeastern.edu/people/fabian-ruehle/) found the Pomerance triple
 
 - $(10^{19}+61,238792350205097889,9647351248508855176)$
 
 using a multi-threaded low level C implementation of an $\tilde O(\sqrt{p})$-time algorithm that found this triple after testing approximately $3.7\times 10^9$ candidates, which took about 400s.  Congratulations to Claude and Fabian!
 
-**Update 2**: In collaboration with GPT 5.4, Vishnu Jejella found the Pomerance triple:
+**Update 2**: In collaboration with GPT 5.4, Vishnu Jejella found the Pomerance triple
 
-- $(10^{20}+39, 80635707401894747894, 31614069099331127513
+- $10^{20}+39, 80635707401894747894, 31614069099331127513$
 
 after testing approximately $1.2 \times 10^9$ candidates, which took about 25300s.  Congratulations to GPT and Vishnu!
 
