@@ -42,7 +42,7 @@ Can you find one for $p=10^{19}+51$?
 
 using a multi-threaded low level C implementation of an $\tilde O(\sqrt{p})$-time algorithm that found this triple after testing approximately $3.7\times 10^9$ candidates, which took about 400s.  Congratulations to Claude and Fabian!
 
-**UPDATE 2**: In collaboration with GPT 5.4, [Vishnu Jejjala](https://www.wits.ac.za/people/academic-a-z-listing/j/vjejjalawitsacza/) found the Pomerance triple
+**UPDATE 2**: In collaboration with GPT 5.4 Pro, [Vishnu Jejjala](https://www.wits.ac.za/people/academic-a-z-listing/j/vjejjalawitsacza/) found the Pomerance triple
 
 - $(10^{20}+39, 80635707401894747894, 31614069099331127513)$
 
