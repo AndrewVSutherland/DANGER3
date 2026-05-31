@@ -48,10 +48,16 @@ using a multi-threaded low level C implementation of an $\tilde O(\sqrt{p})$-tim
 
 after testing approximately $1.2 \times 10^9$ candidates in 7 hours.  Congratulations to GPT and Vishnu!
 
-**Update 3**: Claude Opus 4.6 and Fabien Ruehle have retaken the lead with the Pomerance triple
+**UPDATE 3**: Claude Opus 4.6 and Fabien Ruehle have retaken the lead with the Pomerance triple
 
 - $(10^{21}+117, 51546435219887079991, 144666470127730980460)$
 
-after testing approximately $5.3 \times 10^10$ candidates in 16 hours.  The source code is available [here](https://github.com/ruehlef/Danger2026DataChallenge).
+after testing approximately $5.3 \times 10^{10}$ candidates in 16 hours.  The source code is available [here](https://github.com/ruehlef/Danger2026DataChallenge).
 
-Can you find a Pomerance triple for $p=10^{22}+9$?
+**UPDATE 4**: In collaboration with GPT 5.5 Codex, [Alexa McLain](https://alexamclain.com/) found the Pomerance triple
+
+- $(10^{22}+9, 9992566338662824267458, 3694769590833803032125)$
+
+after testing approximately $5.9 \times 10^{10}$ candidates in 16 hours.  The source code is available [here](https://github.com/alexamclain/Danger2026DataChallenge).
+
+Can you find a Pomerance triple for $p=10^{23}+117$?
