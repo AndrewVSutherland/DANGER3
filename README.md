@@ -60,4 +60,10 @@ after testing approximately $5.3 \times 10^{10}$ candidates in 16 hours.  The so
 
 after testing approximately $5.9 \times 10^{10}$ candidates in 16 hours.  The source code is available [here](https://github.com/alexamclain/Danger2026DataChallenge).
 
-Can you find a Pomerance triple for $p=10^{23}+117$?
+**UPDATE 5**: Using GPT 5.5 Codex in goal mode, Alexa McLain found the Pomerance triple
+
+- $(10^{23}+117, 24163028207499560363686, 64911014007772963770218)$
+
+after testing approximately $3.1 \times 10^{10}$ candidates.  The observation that yielded a constant factor speedup is explained [here](https://github.com/alexamclain/Danger2026DataChallenge/blob/main/research/p23/README.md).
+
+Can you find a Pomerance triple for $p=10^{24}+7$?
