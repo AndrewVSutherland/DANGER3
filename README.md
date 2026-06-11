@@ -33,12 +33,10 @@ Examples of some larger Pomerance triples include
 - $(10^{16}+61,,7091819576975137,7486903304256253)$
 - $(10^{17}+3,38900982538808192,78529976024049678)$
 - $(10^{18}+3,650095865875375253,446015633473605308)$
-  
-Can you find one for $p=10^{19}+51$?
 
 **April 9, 2026**: In collaboration with Clause Opus 4.6, [Fabian Ruehle](https://cos.northeastern.edu/people/fabian-ruehle/) found the Pomerance triple
 
-- $(10^{19}+61,238792350205097889,9647351248508855176)$
+- $(10^{19}+51,238792350205097889,9647351248508855176)$
 
 using a multi-threaded low level C implementation of an $\tilde O(\sqrt{p})$-time algorithm that found this triple after testing approximately $3.7\times 10^9$ candidates, which took about 400s.  Congratulations to Claude and Fabian!
 
@@ -72,4 +70,4 @@ after testing approximately $3.1 \times 10^{10}$ candidates.  The observation th
 
 in about 6 hours using 8 threads.
 
-Can you find a Pomerance triple for $p=10^{25}+37$?
+Can you find a Pomerance triple for $p=10^{25}+13$?
