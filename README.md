@@ -68,6 +68,6 @@ after testing approximately $3.1 \times 10^{10}$ candidates.  The observation th
 
 - $(10^{24}+7,38923582678463553756710, 843367907077058108520461)$
 
-in about 6 hours using 8 threads.
+after testing approximately $1.8 \times 10^{10}$ candidates (in 6 hours on an Apple M3 laptop).  The source code is available [here](https://github.com/JaneShi99/pomerance-p24).
 
 Can you find a Pomerance triple for $p=10^{25}+13$?
