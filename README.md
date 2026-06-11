@@ -36,34 +36,40 @@ Examples of some larger Pomerance triples include
   
 Can you find one for $p=10^{19}+51$?
 
-**UPDATE 1**: In collaboration with Clause Opus 4.6, [Fabian Ruehle](https://cos.northeastern.edu/people/fabian-ruehle/) found the Pomerance triple
+**April 9, 2026**: In collaboration with Clause Opus 4.6, [Fabian Ruehle](https://cos.northeastern.edu/people/fabian-ruehle/) found the Pomerance triple
 
 - $(10^{19}+61,238792350205097889,9647351248508855176)$
 
 using a multi-threaded low level C implementation of an $\tilde O(\sqrt{p})$-time algorithm that found this triple after testing approximately $3.7\times 10^9$ candidates, which took about 400s.  Congratulations to Claude and Fabian!
 
-**UPDATE 2**: In collaboration with GPT 5.4 Pro, [Vishnu Jejjala](https://www.wits.ac.za/people/academic-a-z-listing/j/vjejjalawitsacza/) found the Pomerance triple
+**April 10, 2026**: In collaboration with GPT 5.4 Pro, [Vishnu Jejjala](https://www.wits.ac.za/people/academic-a-z-listing/j/vjejjalawitsacza/) found the Pomerance triple
 
 - $(10^{20}+39, 80635707401894747894, 31614069099331127513)$
 
 after testing approximately $1.2 \times 10^9$ candidates in 7 hours.  Congratulations to GPT and Vishnu!
 
-**UPDATE 3**: Claude Opus 4.6 and Fabien Ruehle have retaken the lead with the Pomerance triple
+**April 12, 2026**: Claude Opus 4.6 and Fabien Ruehle have retaken the lead with the Pomerance triple
 
 - $(10^{21}+117, 51546435219887079991, 144666470127730980460)$
 
 after testing approximately $5.3 \times 10^{10}$ candidates in 16 hours.  The source code is available [here](https://github.com/ruehlef/Danger2026DataChallenge).
 
-**UPDATE 4**: In collaboration with GPT 5.5 Codex, [Alexa McLain](https://alexamclain.com/) found the Pomerance triple
+**May 31, 2026**: In collaboration with GPT 5.5 Codex, [Alexa McLain](https://alexamclain.com/) found the Pomerance triple
 
 - $(10^{22}+9, 9992566338662824267458, 3694769590833803032125)$
 
 after testing approximately $5.9 \times 10^{10}$ candidates in 16 hours.  The source code is available [here](https://github.com/alexamclain/Danger2026DataChallenge).
 
-**UPDATE 5**: Using GPT 5.5 Codex in goal mode, Alexa McLain found the Pomerance triple
+**June 2, 2026**: Using GPT 5.5 Codex in goal mode, Alexa McLain found the Pomerance triple
 
 - $(10^{23}+117, 24163028207499560363686, 64911014007772963770218)$
 
 after testing approximately $3.1 \times 10^{10}$ candidates.  The observation that yielded a constant factor speedup is explained [here](https://github.com/alexamclain/Danger2026DataChallenge/blob/main/research/p23/README.md).
 
-Can you find a Pomerance triple for $p=10^{24}+7$?
+**June 11, 2026**: Using Fable 5 in goal mode, [Jane Shi](https://janeshi99.github.io/) found the Pomerance triple
+
+- $(10^{24}+7,38923582678463553756710, 843367907077058108520461)$
+
+in about 6 hours using 8 threads.
+
+Can you find a Pomerance triple for $p=10^{25}+37$?
