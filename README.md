@@ -70,4 +70,10 @@ after testing approximately $3.1 \times 10^{10}$ candidates.  The observation th
 
 after testing approximately $1.8 \times 10^{10}$ candidates (in 6 hours on an Apple M3 laptop).  The source code is available [here](https://github.com/JaneShi99/pomerance-p24).
 
-Can you find a Pomerance triple for $p=10^{25}+13$?
+**June 19, 2026**: In collaboration with GPT 5.5 Codex, Alexa McLain found the Pomerance triple
+
+- $(10^{25}+13, 24163028207499560363686, 64911014007772963770218)$
+
+after testing approximately $2.0 \times 10^{11}$ candidates.  The source code is available [here](https://github.com/alexamclain/Danger2026DataChallenge/blob/main/research/p25/README.md).
+
+Can you find a Pomerance triple for $p=10^{26}+67$?
