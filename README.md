@@ -72,8 +72,14 @@ after testing approximately $1.8 \times 10^{10}$ candidates (in 6 hours on an Ap
 
 **June 19, 2026**: In collaboration with GPT 5.5 Codex, Alexa McLain found the Pomerance triple
 
-- $(10^{25}+13, 24163028207499560363686, 64911014007772963770218)$
+- $(10^{25}+13, 5863342488035851054212447, 9636258147581954669181726)$
 
 after testing approximately $2.0 \times 10^{11}$ candidates.  The source code is available [here](https://github.com/alexamclain/Danger2026DataChallenge/blob/main/research/p25/README.md).
 
-Can you find a Pomerance triple for $p=10^{26}+67$?
+**June 21, 2026**: Using GPT 5.5 Codex in goal mode, Alexa McLain found the Pomerance triple
+
+- $(10^{26}+67, 78462973492772865017160395, 27732450411057582323409556)$
+
+after testing approximately $1.4 \times 10^{11}$ candidates in 45 minutes on an RTX 6000 GPU.  The source code is available [here](https://github.com/alexamclain/Danger2026DataChallenge/blob/main/research/p26/README.md).
+
+Can you find a Pomerance triple for $p=10^{27}+103$?
