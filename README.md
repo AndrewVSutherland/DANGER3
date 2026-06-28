@@ -15,7 +15,7 @@ This repository contains the following resources:
 - pp12.txt.gz contains all Pomerance triples $(p,A,x_0)$ with $p\le 2^{12}$.
 - pp16A.txt.gz contains all distinct prefixes $(p,A)$ Pomerance triples with $p\le 2^{16}$.
 - pp20.txt containes one Pomerance triple $(p,A,x_0)$ for each prime $3<p<2^{20}$.
-- pp24.txt.gz contains one Pomerance triple $(p,A,x_0)$ for each prime $3<p<2^{20}$.
+- pp24.txt.gz contains one Pomerance triple $(p,A,x_0)$ for each prime $3<p<2^{24}$.
 - slides.pdf contains the slides from the presentation used to explain the Data Challenge.
 
 Larger data sets are available at the following locations:
