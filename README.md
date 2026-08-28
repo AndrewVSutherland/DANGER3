@@ -82,4 +82,10 @@ after testing approximately $2.0 \times 10^{11}$ candidates.  The source code is
 
 after testing approximately $1.4 \times 10^{11}$ candidates in 45 minutes on an RTX 6000 GPU.  The source code is available [here](https://github.com/alexamclain/Danger2026DataChallenge/blob/main/research/p26/README.md).
 
-Can you find a Pomerance triple for $p=10^{27}+103$?
+**August 28, 2026**: In collaboration with various foundation models, [Adam Khakhar](http://adamkhakhar.github.io/) found the Pomerance triple
+
+- $(10^{27}+103, 792266506864025595923438866, 484583117575631730716207764)$
+
+after testing approximately $5.6 \times 10^{12}$ candidates in 52 minutes on 16 RTX 5090 GPUs.  The source code is available [here](https://github.com/adamkhakhar/pomerance-triple-search).
+
+Can you find a Pomerance triple for $p=10^{28}+331$?
