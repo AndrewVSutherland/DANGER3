@@ -19,8 +19,8 @@ This repository contains the following resources:
 - slides.pdf contains the slides from the presentation used to explain the Data Challenge.
 
 Larger data sets are available at the following locations:
-- [pp14.txt.gz](https://math.mit.edu/~drew/pp14.txt.gz): the 43,307,624 Pomerance triples with $p<2^{14}$ (646MB).
-- [pp16.txt.gz](https://math.mit.edu/~drew/pp16.txt.gz): the 598,705,640 Pomerance triples with $p<2^{16}$ (9887MB).
+- [pp14.txt.gz](https://math.mit.edu/~drew/pp14.txt.gz): the 43,374,364 Pomerance triples with $p<2^{14}$ (646MB).
+- [pp16.txt.gz](https://math.mit.edu/~drew/pp16.txt.gz): the 598,772,380 Pomerance triples with $p<2^{16}$ (9888MB).
 - [pp28.txt.gz](https://math.mit.edu/~drew/pp28.txt.gz): one Pomerance triple for each of the 14,630,841 primes $3 < p < 2^{28}$ (386MB).
 - [pp30.txt.gz](https://math.mit.edu/~drew/pp30.txt.gz): one Pomerance triple for each of the 54,400,026 primes $3 < p < 2^{30}$ (1512MB).
 - [pp32.txt.gz](https://math.mit.edu/~drew/pp32.txt.gz): one Pomerance triple for each of the 203,280,219 primes $3 < p < 2^{32}$ (6061MB).
